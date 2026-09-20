@@ -1,0 +1,36 @@
+# Filella & May 2023 Table 6; 25 C, infinite-dilution reference constants.
+# Machine-readable transcription and format conversion; not a new assessment.
+# Do not use at other temperatures: no temperature-dependence fit supplied.
+# Extension: requires a compatible base database defining H+, OH-, e-, F-, H2O.
+# Missing activity parameters use PHREEQC defaults, not the source SIT model.
+# Full extension: total Ge equilibrates at specified pe; no separate valence pools.
+SOLUTION_MASTER_SPECIES
+Ge Ge(OH)4 0 Ge 72.63
+SOLUTION_SPECIES
+Ge(OH)4 = Ge(OH)4
+    log_k 0
+Ge(OH)4 = GeO(OH)3- + H+
+    log_k -9.099
+Ge(OH)4 = GeO2(OH)2-2 + 2 H+
+    log_k -21.859
+Ge(OH)4 + 2 e- + 4 H+ = Ge+2 + 4 H2O
+    log_k -7.206
+8 Ge(OH)4 + 3 OH- = Ge8(OH)35-3
+    log_k 28.33
+Ge(OH)4 + 4 H+ + 6 F- = GeF6-2 + 4 H2O
+    log_k 27.98
+Ge(OH)4 + 5 H+ + 6 F- = GeHF6- + 4 H2O
+    log_k 28.80
+Ge(OH)4 + 4 H+ + 4 F- = GeF4 + 4 H2O
+    log_k 20.14
+Ge(OH)4 + 3 H+ + 4 F- = GeF4(OH)- + 3 H2O
+    log_k 19.08
+Ge(OH)4 + 3 H+ + 2 F- = GeF2(OH)+ + 3 H2O
+    log_k 9.345
+PHASES
+GeO2_hexagonal_FM2023
+GeO2 + 2 H2O = Ge(OH)4
+    log_k -1.373
+GeO2_tetragonal_FM2023
+GeO2 + 2 H2O = Ge(OH)4
+    log_k -4.999

@@ -1,0 +1,15 @@
+# Filella & May 2023 Table 6; 25 C, infinite-dilution reference constants.
+# Machine-readable transcription and format conversion; not a new assessment.
+# Do not use at other temperatures: no temperature-dependence fit supplied.
+# Extension: requires a compatible base database defining H+, OH-, e-, F-, H2O.
+# Missing activity parameters use PHREEQC defaults, not the source SIT model.
+# Full extension: total Ge equilibrates at specified pe; no separate valence pools.
+SOLUTION_MASTER_SPECIES
+Ge Ge(OH)4 0 Ge 72.63
+SOLUTION_SPECIES
+Ge(OH)4 = Ge(OH)4
+    log_k 0
+Ge(OH)4 = GeO(OH)3- + H+
+    log_k -9.099
+Ge(OH)4 = GeO2(OH)2-2 + 2 H+
+    log_k -21.859

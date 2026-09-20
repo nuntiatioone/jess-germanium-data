@@ -1,0 +1,43 @@
+{
+  "weights": {
+    "9": "highest accuracy",
+    "8": "multi-determined; excellent dependability",
+    "7": "trustworthy; outstanding single determination",
+    "6": "better than average reliability",
+    "5": "average single determination",
+    "4": "some doubt",
+    "3": "poorly known",
+    "2": "guess to achieve consistency (or just as bad)",
+    "1": "no information but consistent",
+    "0": "problematic/inconsistent"
+  },
+  "techniques": {
+    "CRV": "Critical review",
+    "EAE": "Automated extrapolation",
+    "EDH": "Debye-Hueckel corrections",
+    "EES": "Personal estimate",
+    "EFE": "Free Energy relations",
+    "ELC": "Linear Combination of Reactions",
+    "ENS": "Not specified",
+    "EOD": "Calculated from data of others",
+    "ESC": "Standard conditions anchor",
+    "MAN": "Chemical analysis",
+    "MAX": "Anion exchange",
+    "MCN": "Conductivity",
+    "MCO": "Colorimetry (often for measuring pH)",
+    "MDG": "Combination of Thermodynamic Data",
+    "MEF": "Electromotoric force, not specified",
+    "MFP": "Freezing point",
+    "MGL": "Glass electrode",
+    "MHY": "Emf with hydrogen electrode",
+    "MIX": "Ion exchange",
+    "MPL": "Polarography",
+    "MPT": "Potentiometry",
+    "MQH": "Quinhydrone electrode",
+    "MSC": "Miscellaneous",
+    "MSE": "Solvent Extraction",
+    "MSL": "Solubility",
+    "MSP": "Spectroscopy",
+    "MTD": "Temperature difference"
+  }
+}
