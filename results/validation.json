@@ -1,0 +1,46 @@
+{
+  "resource_version": "0.1.1",
+  "counts": {
+    "reactions": 174,
+    "parameter_records": 537,
+    "species": 223,
+    "references": 85
+  },
+  "referential_integrity_errors": [],
+  "balance_counts": {
+    "balanced": 174
+  },
+  "source_discrepancies": [],
+  "quantity_counts": {
+    "E": 32,
+    "lgK": 422,
+    "dG": 24,
+    "dH": 52,
+    "Cp": 7
+  },
+  "weight_counts": {
+    "0": 117,
+    "3": 99,
+    "1": 39,
+    "4": 140,
+    "2": 60,
+    "5": 70,
+    "6": 10,
+    "7": 2
+  },
+  "missing_conditions": {
+    "temperature": 0,
+    "ionic_strength_source_blank": 6,
+    "ionic_strength_effective_unknown": 7
+  },
+  "source_annotation_counts": {
+    "source_deprecates_species": 42,
+    "source_reports_wrong_species": 1,
+    "tabulated_number_is_upper_bound": 1,
+    "tabulated_ionic_strength_disclaimed_by_source": 1,
+    "compiled_phase_identity_exceeds_original_source": 4,
+    "variable_ionic_medium": 1,
+    "source_reaction_reexpressed_with_unspecified_phase": 1
+  },
+  "scientific_validation": "Checks establish transcription structure and chemical balance only, not empirical accuracy or a self-consistent selected thermodynamic database."
+}

@@ -1,0 +1,226 @@
+{
+  "resource_version": "0.1.1",
+  "synthetic_scenario_not_measurement": true,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "phreeqpy": "0.6.0",
+    "native_library": [
+      {
+        "name": "IPhreeqc-3.7.3.dll",
+        "sha256": "6e09125f8f113786848b4123e84861d6b72880fb49809d4181fd8620f7887965"
+      }
+    ]
+  },
+  "acquisition": [
+    {
+      "path": ".cache/chnosz/DESCRIPTION",
+      "cached": true,
+      "seconds": 0.0013432999840006232
+    },
+    {
+      "path": ".cache/chnosz/inorganic_aq.csv",
+      "cached": true,
+      "seconds": 0.004373099945951253
+    },
+    {
+      "path": ".cache/chnosz/inorganic_cr.csv",
+      "cached": true,
+      "seconds": 0.0018627999816089869
+    },
+    {
+      "path": ".cache/phreeqc-3.7.3.dat",
+      "cached": true,
+      "seconds": 0.0010925999958999455
+    }
+  ],
+  "reference_page_as_written": {
+    "accepted": false,
+    "diagnostic": "ERROR: Equation is not charge balanced, right - left = -4.0000 moles charge\nERROR: Equation does not balance for element, H: right - left = -4.0000 moles\nERROR: Equation for species Ge+2 does not balance.\nERROR: Equation is not charge balanced, right - left =  2.0000 moles charge\nERROR: Equation for species GeF2(OH)- does not balance.\nERROR: Calculations terminating due to input errors.\n",
+    "seconds": 0.03801339998608455,
+    "selected_output": []
+  },
+  "corrected_published_reactions": {
+    "accepted": true,
+    "diagnostic": "",
+    "seconds": 0.025822600000537932,
+    "selected_output": [
+      [
+        "pH",
+        "total_Ge",
+        "log_a_neutral",
+        "log_a_mono",
+        "log_a_di",
+        "sum_Ge",
+        "ionic_strength"
+      ],
+      [
+        9.2,
+        1.000000000000001e-06,
+        -6.379719431663805,
+        -6.278719431663805,
+        -9.838719431663808,
+        1.0000000000000008e-06,
+        0.010000000909910337
+      ]
+    ]
+  },
+  "negative_control_scope": "Same PHREEQC transcription, base database, solution and constants; only the two website equation errors differ.",
+  "fixture_conditions": {
+    "temperature_C": 25,
+    "pressure_atm": 0.9869232667,
+    "pressure_bar_approximately": 1,
+    "pe": 4,
+    "Ge_mol_kgw": 1e-06,
+    "Na_mol_kgw": 0.01,
+    "Cl": "adjusted for charge balance",
+    "activity_model": "PHREEQC defaults: Davies for new charged species; default neutral expression"
+  },
+  "acid_base_mass_action_checks": [
+    {
+      "input_pH": 7.0,
+      "engine": {
+        "pH": 7.0,
+        "total_Ge": 9.999999999999993e-07,
+        "log_a_neutral": -6.00282565611262,
+        "log_a_mono": -8.10182565611262,
+        "log_a_di": -13.86182565611262,
+        "sum_Ge": 9.999999999999993e-07,
+        "ionic_strength": 0.010000109487597343
+      },
+      "log_activity_ratio_residuals": [
+        0.0,
+        -1.7763568394002505e-15
+      ],
+      "cumulative_log_activity_residual": 0.0,
+      "Ge_mass_balance_residual_mol_kgw": -6.352747104407253e-22
+    },
+    {
+      "input_pH": 9.099,
+      "engine": {
+        "pH": 9.099,
+        "total_Ge": 1.0000000000000006e-06,
+        "log_a_neutral": -6.323620338266848,
+        "log_a_mono": -6.323620338266847,
+        "log_a_di": -9.984620338266849,
+        "sum_Ge": 1.0000000000000006e-06,
+        "ionic_strength": 0.01000000102827046
+      },
+      "log_activity_ratio_residuals": [
+        0.0,
+        0.0
+      ],
+      "cumulative_log_activity_residual": 0.0,
+      "Ge_mass_balance_residual_mol_kgw": 6.352747104407253e-22
+    },
+    {
+      "input_pH": 9.2,
+      "engine": {
+        "pH": 9.2,
+        "total_Ge": 1.0000000000000008e-06,
+        "log_a_neutral": -6.379719431663805,
+        "log_a_mono": -6.278719431663805,
+        "log_a_di": -9.838719431663808,
+        "sum_Ge": 1.0000000000000008e-06,
+        "ionic_strength": 0.010000000909910337
+      },
+      "log_activity_ratio_residuals": [
+        0.0,
+        -1.7763568394002505e-15
+      ],
+      "cumulative_log_activity_residual": 0.0,
+      "Ge_mass_balance_residual_mol_kgw": 8.470329472543003e-22
+    },
+    {
+      "input_pH": 10.5,
+      "engine": {
+        "pH": 10.5,
+        "total_Ge": 1.0000000000000025e-06,
+        "log_a_neutral": -7.464216439651633,
+        "log_a_mono": -6.063216439651632,
+        "log_a_di": -8.323216439651635,
+        "sum_Ge": 1.0000000000000025e-06,
+        "ionic_strength": 0.010000007214664876
+      },
+      "log_activity_ratio_residuals": [
+        0.0,
+        -1.7763568394002505e-15
+      ],
+      "cumulative_log_activity_residual": 0.0,
+      "Ge_mass_balance_residual_mol_kgw": 2.541098841762901e-21
+    }
+  ],
+  "query": {
+    "reaction_id": 75139,
+    "temperature_C": 25,
+    "rows": 6,
+    "repeats": 101,
+    "first_seconds": 0.019329299975652248,
+    "median_seconds": 0.008015649975277483,
+    "p95_seconds": 0.025432199996430427,
+    "includes": [
+      "all six source rows",
+      "conditions and units",
+      "SF/SD/MD distinction",
+      "quality weight and meaning",
+      "technique",
+      "bibliographic link",
+      "calculated-value note",
+      "source page"
+    ]
+  },
+  "best_open_machine_readable_alternative": {
+    "source": "CHNOSZ 2.3.0 OBIGT, pinned commit in sources/comparators.json",
+    "method": "Direct arithmetic from stored standard molal G values; R/CHNOSZ was not executed",
+    "temperature_K": 298.15,
+    "pressure_bar": 1,
+    "delta_G_cal_per_mol": 12700.0,
+    "calculated_pKa1_from_rounded_G": 9.309164600444142,
+    "rounding_only_bound_if_each_G_rounded_to_nearest_100_cal_mol": 0.0733005086649145,
+    "rounding_bound_is_statistical_uncertainty": false,
+    "germanium_aqueous_species": [
+      "Ge(OH)4",
+      "GeO(OH)3-"
+    ],
+    "germanium_solids": [
+      {
+        "name": "germanium",
+        "formula": "Ge"
+      },
+      {
+        "name": "GeO2 (hex)",
+        "formula": "GeO2"
+      },
+      {
+        "name": "argutite",
+        "formula": "GeO2"
+      },
+      {
+        "name": "GeS",
+        "formula": "GeS"
+      },
+      {
+        "name": "GeS2",
+        "formula": "GeS2"
+      },
+      {
+        "name": "GeS2 (alpha)",
+        "formula": "GeS2"
+      }
+    ],
+    "source_refs": [
+      "HB24:PS98.1"
+    ],
+    "raw_JESS_conditions_weights_notes_available": false,
+    "dianion_available": false,
+    "interpretation": "A maintained, useful executable alternative already exists for two aqueous species and both GeO2 polymorphs. The different pKa is not evidence that either source predicts observations more accurately."
+  },
+  "limitations": [
+    "Input acceptance and mass-action residuals do not establish empirical validity.",
+    "Only 25 C is supported by this conversion; no temperature dependence was fitted.",
+    "PHREEQC default activity coefficients and base-water chemistry are modelling assumptions, not new Germanium measurements.",
+    "Specified-pH NaCl solutions are synthetic validation fixtures; mass balance does not prove a field-water prediction.",
+    "Full-model acceptance does not validate tentative redox, polynuclear or fluoride parameters.",
+    "No timed human transcription experiment or monetary savings claim is made."
+  ]
+}

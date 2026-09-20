@@ -1,0 +1,9 @@
+test_balance_check_detects_the_actual_website_errors (test_preservation.PreservationRegressions.test_balance_check_detects_the_actual_website_errors) ... ok
+test_continuation_and_final_page_are_not_dropped (test_preservation.PreservationRegressions.test_continuation_and_final_page_are_not_dropped) ... ok
+test_query_carries_calculation_note_and_uncertainty_semantics (test_preservation.PreservationRegressions.test_query_carries_calculation_note_and_uncertainty_semantics) ... ok
+test_source_note_changes_numeric_semantics_without_erasing_raw_cell (test_preservation.PreservationRegressions.test_source_note_changes_numeric_semantics_without_erasing_raw_cell) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.038s
+
+OK

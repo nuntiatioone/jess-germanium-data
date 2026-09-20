@@ -1,0 +1,53 @@
+{
+  "method": "pypdf content-stream line extraction; no production-parser import",
+  "reaction_headers": 174,
+  "reaction_header_set_matches": true,
+  "parameter_rows_in_independent_source": 537,
+  "parameter_rows_in_resource": 537,
+  "parameter_fields_compared": [
+    "reaction_id",
+    "row",
+    "temperature",
+    "ionic_strength",
+    "medium",
+    "value/deviation/unit token",
+    "weight",
+    "technique",
+    "reference",
+    "page"
+  ],
+  "source_rows_missing_from_resource": [],
+  "resource_rows_not_in_source": [],
+  "equation_mismatches": [],
+  "notes_in_independent_source": 85,
+  "notes_in_resource": 85,
+  "source_notes_missing_from_resource": [],
+  "resource_notes_not_in_source": [],
+  "species_numeric_rows_in_source": 223,
+  "species_numeric_rows_in_resource": 223,
+  "species_fields_compared": [
+    "charge",
+    "CAS",
+    "source count",
+    "formula",
+    "molar mass",
+    "page"
+  ],
+  "species_missing": [],
+  "species_extra": [],
+  "species_heading_fields_compared": [
+    "symbol",
+    "names",
+    "heading page",
+    "linked charge",
+    "linked formula"
+  ],
+  "species_heading_missing": [],
+  "species_heading_extra": [],
+  "bibliography_entries": 85,
+  "bibliography_missing": [],
+  "bibliography_extra": [],
+  "passed": true,
+  "seconds": 19.043729199969675,
+  "limits": "Independent text/geometry extraction establishes source fidelity, not empirical validity. Selected rendered pages additionally checked during preparation."
+}

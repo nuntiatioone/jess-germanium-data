@@ -1,0 +1,13 @@
+{
+  "base_commit": "8ed9e849f49d1a8cfdf4b77c4bad4374d2e588a2",
+  "file": "TCE/germanium.md",
+  "base_sha256": "43d09ee103c803634b9496880ade8519f48289db9a1ece044656c0add0647efc",
+  "patched_sha256": "7545596d8d75d1310494c00d665e7af2aa4abec42f60eedf1dfcb87051634623",
+  "changed_reactions": [
+    1,
+    11
+  ],
+  "numeric_constants_changed": false,
+  "published": false,
+  "checks": "Checked against Table 6 in two separate equation comparisons; chemical balance and PHREEQC checks are separate results."
+}

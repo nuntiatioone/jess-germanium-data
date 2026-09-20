@@ -1,0 +1,52 @@
+{
+  "checked_utc": "2026-09-20T20:30:56.594886+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "fresh_acquisition_seconds": 6.30031570000574,
+  "fresh_acquisition_receipts": [
+    {
+      "source": "01-Introduction.pdf",
+      "cached": false,
+      "seconds": 1.3865814000018872,
+      "checked_utc": "2026-09-20T20:29:54.003138+00:00"
+    },
+    {
+      "source": "02-Instructions.pdf",
+      "cached": false,
+      "seconds": 1.2724941999767907,
+      "checked_utc": "2026-09-20T20:29:55.275708+00:00"
+    },
+    {
+      "source": "03-Licence copyright and disclaimer.pdf",
+      "cached": false,
+      "seconds": 1.449227900011465,
+      "checked_utc": "2026-09-20T20:29:56.724726+00:00"
+    },
+    {
+      "source": "GER.PDF",
+      "cached": false,
+      "seconds": 1.202415400010068,
+      "checked_utc": "2026-09-20T20:29:57.927824+00:00"
+    },
+    {
+      "source": "GES.PDF",
+      "cached": false,
+      "seconds": 0.9443663000129163,
+      "checked_utc": "2026-09-20T20:29:58.868394+00:00"
+    }
+  ],
+  "cold_PDF_rebuild_seconds": 37.3667830999475,
+  "recommended_conversion_and_patch_seconds": 0.02032740000868216,
+  "independent_parser_seconds": 19.050049700017553,
+  "cached_rebuild_seconds": 0.3199200999806635,
+  "whole_reproduction_command_seconds": 64.3320213999832,
+  "source_bytes": 1084375,
+  "data_bytes": 3237316,
+  "local_dependency_directory_bytes": 241240116,
+  "limitations": [
+    "One execution on this machine; not a hardware-independent benchmark.",
+    "Initial research, installation, review and future source-change review time are excluded.",
+    "Python runtime may reside outside the local dependency directory.",
+    "No human time saving or monetary value was measured."
+  ]
+}

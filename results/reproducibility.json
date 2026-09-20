@@ -1,0 +1,24 @@
+{
+  "resource_version": "0.1.1",
+  "data_sha256": {
+    "germanium-2023.pqi": "6717a2d2ddfc6dfc565fea21ada7af1c04ef9eb2780665196c2c1eab719d6d05",
+    "germanium-acid-only-2023.pqi": "94413adbd4110fd5593553ef46ab1b6ab1ea2df5d06697894779d1d7ec20e045",
+    "jess-ge.sqlite": "25ffd94f30584f63315d28a35060adc56a87b8b06d5e661a64b4dd48112d9927",
+    "parameters.csv": "431907c2f912278cdaf08f27b72580d2e06ac8815bc571f2161f1e614dc34219",
+    "parameters.jsonl": "a7a23ec4e256f37f97de838a82015f356a4183aaa7068079d5f4fe8628a6cb90",
+    "reactions.csv": "667c41ca2cffb496c9e3c46c2c5c3750b4722416d30965f2953d8f15a8ea8af2",
+    "reactions.jsonl": "793c00a96f471e8e7e5785098108f3d7c4baed6324b15991ede065e11310a580",
+    "recommended-2023.json": "fd6d2033b7662259a1f8326ff17b01890c77e16c530aee809dcebfbdac8718a3",
+    "references.csv": "793944a8957ef1e58fe98dd6bb4554835f1580ae9aa8cfba2dced5ce2fb63c8b",
+    "references.jsonl": "ca998e80cb088404f1d1e93487d1744b355a288dcc91e4a41fcb7c811e28218d",
+    "resource.json": "9c732dd2a4955f96bb91ffe2fc92a8770f796a82250442742b2549431071487b",
+    "species.csv": "301ff2c69f573e84a52c5e2c91ac75cb4f2903c0c3cfc8a622d917594505e497",
+    "species.jsonl": "80d3ab549691f192d207391845073b8be046d3f698c4ba5eb1e75e9625c44dc8",
+    "vocabularies.json": "ca2a4d8877a9a7f82518b80c2a919a809b064075e18acbd269a71ca319f1dbfb"
+  },
+  "cold_matches_initial_data": true,
+  "cold_matches_cached_rebuild": true,
+  "independent_extraction_passed": true,
+  "regression_tests_passed": true,
+  "upstream_patch_applies_and_result_hash_matches": true
+}

@@ -1,0 +1,86 @@
+{
+  "reviewer": "Automated preparation review with rendered-page inspection and separate source-equation and note audits; not external expert review",
+  "method": "Rendered PDF page inspection, in addition to complete independent text/geometry reconciliation",
+  "source_version": "Pinned files in sources/manifest.json",
+  "checks": [
+    {
+      "file": "GER.PDF",
+      "pages": [
+        1
+      ],
+      "checked": "Initial reaction layout and deprecated-species note"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        8
+      ],
+      "checked": "37342:2 upper-bound note, two different cited rows, raw weight zero"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        11
+      ],
+      "checked": "54447:11 saturated-not-5-M qualification and neighbouring blank condition cells"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        17
+      ],
+      "checked": "59434:1 variable medium, continued row above first reaction heading"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        25
+      ],
+      "checked": "75139 all twelve rows, first six at25C, calculated row notes, SF/SD/MD labels"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        32
+      ],
+      "checked": "80907 row1 note continues above the next reaction heading; must attach to previous page's reaction"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        37
+      ],
+      "checked": "Last reaction80937 precedes assessment dictionary; must not truncate at page36"
+    },
+    {
+      "file": "GER.PDF",
+      "pages": [
+        39
+      ],
+      "checked": "Multiline bibliography entries, ids and author/title continuation"
+    },
+    {
+      "file": "GES.PDF",
+      "pages": [
+        2
+      ],
+      "checked": "Species-symbol/name/numeric-row associations and missing CAS markers"
+    },
+    {
+      "file": "03-Licence copyright and disclaimer.pdf",
+      "pages": [
+        1
+      ],
+      "checked": "Specific attribution/free-use grant, retained rights and required disclaimer"
+    },
+    {
+      "file": "Filella-May2023 author-repository PDF (not distributed)",
+      "pages": [
+        10
+      ],
+      "checked": "Table6 equations and all11numeric recommendations; proton omission and charge-sign error confirmed"
+    }
+  ],
+  "passed": true,
+  "limits": "Selected visual checks are not a full visual rereading of every page, and are not external human or empirical review."
+}
