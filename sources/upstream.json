@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/equilibriumdata/equilibriumdata.github.io",
+  "commit": "8ed9e849f49d1a8cfdf4b77c4bad4374d2e588a2",
+  "file": "TCE/germanium.md",
+  "url": "https://raw.githubusercontent.com/equilibriumdata/equilibriumdata.github.io/8ed9e849f49d1a8cfdf4b77c4bad4374d2e588a2/TCE/germanium.md",
+  "sha256": "43d09ee103c803634b9496880ade8519f48289db9a1ece044656c0add0647efc",
+  "paper_doi": "10.1016/j.apgeochem.2023.105631",
+  "paper_url": "https://access.archive-ouverte.unige.ch/access/metadata/83e67d1f-17df-4196-ac51-70934b17fc8b/download",
+  "paper_sha256": "660f354bd045c8cecc3a26a84d721e9d242cb13c7ce5f1d1bd7b78f4ce1a9a1e",
+  "table": "Table 6, printed page 9, PDF page 10 (repository cover included)",
+  "upstream_patch_status": "Prepared for review; not submitted or accepted"
+}

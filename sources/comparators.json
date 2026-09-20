@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": ".cache/chnosz/DESCRIPTION",
+      "url": "https://raw.githubusercontent.com/cran/CHNOSZ/5970cdcb911aaae24763e8daf368f48bccc786b4/DESCRIPTION",
+      "sha256": "7041c603249d13868f5875d11430085a0b9a722fe191a6d54235639c3c3e77a1",
+      "bytes": 1970,
+      "role": "best accessible open machine-readable comparison; not redistributed",
+      "licence": "GPL-3"
+    },
+    {
+      "path": ".cache/chnosz/inorganic_aq.csv",
+      "url": "https://raw.githubusercontent.com/cran/CHNOSZ/5970cdcb911aaae24763e8daf368f48bccc786b4/inst/extdata/OBIGT/inorganic_aq.csv",
+      "sha256": "d30093265c0fb6da4e595300463ed5e75e9a03a00db1787e19044bda8005b15b",
+      "bytes": 91137,
+      "role": "best accessible open machine-readable comparison; not redistributed",
+      "licence": "GPL-3"
+    },
+    {
+      "path": ".cache/chnosz/inorganic_cr.csv",
+      "url": "https://raw.githubusercontent.com/cran/CHNOSZ/5970cdcb911aaae24763e8daf368f48bccc786b4/inst/extdata/OBIGT/inorganic_cr.csv",
+      "sha256": "993e44229060f7f048ff61670bef4f825af8d9c1018ccf23ffa3c57248c6204f",
+      "bytes": 43535,
+      "role": "best accessible open machine-readable comparison; not redistributed",
+      "licence": "GPL-3"
+    },
+    {
+      "path": ".cache/phreeqc-3.7.3.dat",
+      "url": "https://raw.githubusercontent.com/phreeqc-dev/phreeqc3/84971d373c2870eb8e82c0a3c7673df84429f86d/database/phreeqc.dat",
+      "sha256": "3e819f36a78a134b9e53557e9fd9e640d3616b84282cf7095c60337c49c6357b",
+      "bytes": 48364,
+      "role": "matching PHREEQC 3.7.3 base database; acquired separately",
+      "licence": "See upstream USGS software notice; not redistributed"
+    }
+  ]
+}

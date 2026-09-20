@@ -1,0 +1,21 @@
+{
+  "title": "JESS v8.9 Germanium: qualified machine-readable transcription and checked 2023 recommendation conversion",
+  "resource_version": "0.1.1",
+  "schema_version": 1,
+  "source_doi": "10.5281/zenodo.7700024",
+  "recommendation_doi": "10.1016/j.apgeochem.2023.105631",
+  "rights_file": "../RIGHTS.md",
+  "source_manifest": "../sources/manifest.json",
+  "data_dictionary": "../docs/DATA-DICTIONARY.md",
+  "status": {
+    "downloaded_existing_source_PDFs": true,
+    "complete_selected_subset_transcribed": true,
+    "historically_lost_originals_recovered": false,
+    "new_representations_generated": true,
+    "source_fidelity_verified": true,
+    "empirical_accuracy_verified": false,
+    "new_scientific_measurements": false,
+    "upstream_patch_submitted": false
+  },
+  "limitations": "A historical compilation with quality flags and contradictions, not a newly harmonised thermodynamic database. Published 2023 recommendations remain a separate record class. Read rights, notes, units and value_relation before use."
+}

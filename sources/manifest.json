@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "doi": "10.5281/zenodo.7700024",
+  "checked_utc": "2026-09-20T19:53:52.714200+00:00",
+  "rights": {
+    "zenodo_metadata": "zenodo-freetoread-1.0",
+    "attached_terms": "03-Licence copyright and disclaimer.pdf: free use of contents with attribution and disclaimer; rights retained",
+    "murdoch_metadata": "CC BY V4.0; not substituted for attached source-specific terms"
+  },
+  "files": [
+    {
+      "id": "01-Introduction.pdf",
+      "path": "sources/jess-8.9/01-Introduction.pdf",
+      "url": "https://zenodo.org/records/7700024/files/01-Introduction.pdf?download=1",
+      "size": 173005,
+      "sha256": "17478cb18fe5286f02719397e81d8a8289d6468c0bdc1d0330eacc95f18e8a48",
+      "repository_checksum": "md5:d7262d755f0898ac12861fb7a17f3536",
+      "source_version": "JESS Thermodynamic Database v8.9, 24-Jan-2023",
+      "status": {
+        "downloaded": true,
+        "historical_original_recovered": false,
+        "reconstructed": false,
+        "source_bytes_verified": true,
+        "new_measurements": false
+      }
+    },
+    {
+      "id": "02-Instructions.pdf",
+      "path": "sources/jess-8.9/02-Instructions.pdf",
+      "url": "https://zenodo.org/records/7700024/files/02-Instructions.pdf?download=1",
+      "size": 207490,
+      "sha256": "f1fc12c7b957554c3566a1444437c1b366040ec000a6e75a18381d7bdd253d72",
+      "repository_checksum": "md5:627fb474715743ab973c7c39e318d844",
+      "source_version": "JESS Thermodynamic Database v8.9, 24-Jan-2023",
+      "status": {
+        "downloaded": true,
+        "historical_original_recovered": false,
+        "reconstructed": false,
+        "source_bytes_verified": true,
+        "new_measurements": false
+      }
+    },
+    {
+      "id": "03-Licence copyright and disclaimer.pdf",
+      "path": "sources/jess-8.9/03-Licence copyright and disclaimer.pdf",
+      "url": "https://zenodo.org/records/7700024/files/03-Licence%20copyright%20and%20disclaimer.pdf?download=1",
+      "size": 236101,
+      "sha256": "2b1c54a90a95663461c68dc59ba73cafeec504f8d2167b3b4b7469ec2ae5e1a6",
+      "repository_checksum": "md5:2770cfbba07d5a3dd2ec21456eebad5a",
+      "source_version": "JESS Thermodynamic Database v8.9, 24-Jan-2023",
+      "status": {
+        "downloaded": true,
+        "historical_original_recovered": false,
+        "reconstructed": false,
+        "source_bytes_verified": true,
+        "new_measurements": false
+      }
+    },
+    {
+      "id": "GER.PDF",
+      "path": "sources/jess-8.9/GER.PDF",
+      "url": "https://zenodo.org/records/7700024/files/GER.PDF?download=1",
+      "size": 345591,
+      "sha256": "0068df469e49ae4cc21a4cdb32385e85bca67aa01c32439152e9716cf69a05f8",
+      "repository_checksum": "md5:405b107ccf9dcfbc7ba2421ba3ba5b92",
+      "source_version": "JESS Thermodynamic Database v8.9, 24-Jan-2023",
+      "status": {
+        "downloaded": true,
+        "historical_original_recovered": false,
+        "reconstructed": false,
+        "source_bytes_verified": true,
+        "new_measurements": false
+      }
+    },
+    {
+      "id": "GES.PDF",
+      "path": "sources/jess-8.9/GES.PDF",
+      "url": "https://zenodo.org/records/7700024/files/GES.PDF?download=1",
+      "size": 122188,
+      "sha256": "7646832a6e36a1134fb598270803e2d749fd2124b3d9c09b457da5eccfa2c069",
+      "repository_checksum": "md5:fd0ad01b8bf24f913dfa0049b3f815f7",
+      "source_version": "JESS Thermodynamic Database v8.9, 24-Jan-2023",
+      "status": {
+        "downloaded": true,
+        "historical_original_recovered": false,
+        "reconstructed": false,
+        "source_bytes_verified": true,
+        "new_measurements": false
+      }
+    }
+  ]
+}
