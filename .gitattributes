@@ -1,0 +1,5 @@
+# Preserve pinned bytes and SHA256SUMS across Git checkouts on all platforms.
+* -text whitespace=cr-at-eol
+*.pdf binary
+*.PDF binary
+*.sqlite binary
