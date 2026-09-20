@@ -1,0 +1,16 @@
+--- a/TCE/germanium.md
++++ b/TCE/germanium.md
+@@ -46,5 +46,5 @@
+ | Reaction |	log <i>K</i> |
+ | :--- | :--- |
+-| Ge(OH)<sub>4</sub> + 2 e<sup>-</sup> = Ge<sup>2+</sup> + 4H<sub>2</sub>O |	-7.206 |
++| Ge(OH)<sub>4</sub> + 2 e<sup>-</sup> + 4 H<sup>+</sup> = Ge<sup>2+</sup> + 4H<sub>2</sub>O |	-7.206 |
+ | GeO<sub>2</sub>(OH)<sub>2</sub><sup>2–</sup> + H<sup>+</sup> = GeO(OH)<sub>3</sub><sup>–</sup> |	12.76 |
+ | GeO(OH)<sub>3</sub><sup>–</sup> + H<sup>+</sup> = Ge(OH)<sub>4</sub> |	9.099 |
+@@ -56,5 +56,5 @@
+ | Ge(OH)<sub>4</sub> + 4 H<sup>+</sup> + 4 F<sup>-</sup> = GeF<sub>4</sub> + 4 H<sub>2</sub>O |	20.14 |
+ | Ge(OH)<sub>4</sub> + 3 H<sup>+</sup> + 4 F<sup>-</sup> = GeF<sub>4</sub>(OH)<sup>-</sup> + 3 H<sub>2</sub>O |	19.08 |
+-| Ge(OH)<sub>4</sub> + 3 H<sup>+</sup> + 2 F<sup>-</sup> = GeF<sub>2</sub>(OH)<sup>-</sup> + 3 H<sub>2</sub>O |	9.345 |
++| Ge(OH)<sub>4</sub> + 3 H<sup>+</sup> + 2 F<sup>-</sup> = GeF<sub>2</sub>(OH)<sup>+</sup> + 3 H<sub>2</sub>O |	9.345 |
+ 
+ ### References
